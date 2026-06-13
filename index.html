@@ -1,0 +1,977 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/imgs/generic/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <meta name="description"
+    content="StatixFlow is a premium platform designed to optimize performance, growth strategy, and automate your business processes. Start your free trial today." />
+  <title>Home - StatixFlow™</title>
+</head>
+
+<body>
+  <!-- Start: Page Header -->
+  <header class="fixed top-0 right-0 left-0 z-50 py-4" data-animated-scroll-header>
+    <div class="container mx-auto px-4">
+      <div class="flex items-center justify-between rounded-2xl bg-white p-4 shadow-xl sm:py-2">
+        <a href="#" class="flex items-center gap-2 text-sm font-bold tracking-wider uppercase">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M13 3L4 14h7l-2 7 9-11h-7l2-7z" />
+          </svg>
+          <span>StatixFlow™</span>
+        </a>
+
+        <!-- Start: XL+ Screens Navigation -->
+        <nav class="hidden items-center gap-10 text-sm font-medium xl:flex" data-desktop-nav>
+          <a href="#" data-active-link
+            class="text-foreground transition-colors duration-300 ease-in-out hover:text-foreground/70 data-active-link:text-muted-foreground">Home</a>
+          <a href="#"
+            class="text-foreground transition-colors duration-300 ease-in-out hover:text-foreground/70 data-active-link:text-muted-foreground">About</a>
+          <a href="#"
+            class="text-foreground transition-colors duration-300 ease-in-out hover:text-foreground/70 data-active-link:text-muted-foreground">Case
+            Studies</a>
+          <a href="#"
+            class="text-foreground transition-colors duration-300 ease-in-out hover:text-foreground/70 data-active-link:text-muted-foreground">Blog</a>
+          <a href="#"
+            class="text-foreground transition-colors duration-300 ease-in-out hover:text-foreground/70 data-active-link:text-muted-foreground">Pricing</a>
+        </nav>
+        <!-- End: XL+ Screens Navigation -->
+
+        <div class="flex items-center gap-6">
+          <a href="#"
+            class="group hidden items-center justify-center gap-2 rounded-full border border-primary bg-transparent px-4 py-3 text-sm font-medium text-black sm:inline-flex">
+            <span class="relative overflow-hidden">
+              <span
+                class="relative block h-full translate-y-0 transition-transform duration-300 ease-in-out group-hover:-translate-y-full">Send
+                a message</span>
+
+              <span
+                class="absolute top-0 left-0 block h-full translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">Send
+                a message</span>
+            </span>
+
+            <span class="translate-x-0 transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+              <i data-lucide="chevron-right" class="size-4"></i>
+            </span>
+          </a>
+
+          <button class="group flex cursor-pointer items-center gap-2 xl:hidden" data-mobile-nav-trigger>
+            <span class="text-xs font-medium tracking-widest text-foreground uppercase">Menu</span>
+            <span class="flex h-3 w-4 flex-col justify-between">
+              <span
+                class="block h-px w-full origin-center bg-current transition-all duration-300 ease-in-out group-open:translate-y-[5.5px] group-open:rotate-45"></span>
+              <span
+                class="block h-px w-full origin-center bg-current transition-all duration-300 ease-in-out group-open:opacity-0"></span>
+              <span
+                class="block h-px w-full origin-center bg-current transition-all duration-300 ease-in-out group-open:-translate-y-[5.5px] group-open:-rotate-45"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End: Page Header -->
+
+  <!-- Start: Mobile Navigation Overlay -->
+  <div
+    class="pointer-events-none fixed inset-0 z-60 bg-black/40 opacity-0 transition-all duration-300 ease-in-out open:pointer-events-auto open:opacity-100"
+    data-mobile-nav-overlay></div>
+  <!-- End: Mobile Navigation Overlay -->
+
+  <!-- Start: Mobile Navigation Sheet -->
+  <div
+    class="fixed top-0 left-0 z-70 flex h-screen w-3/4 -translate-x-full flex-col bg-black text-white transition-transform duration-300 ease-in-out open:translate-x-0"
+    data-mobile-nav-sheet>
+    <div class="flex min-h-0 flex-1 flex-col justify-between overflow-y-auto p-10 md:p-20">
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-[180px_1fr] md:gap-10">
+        <div>
+          <h2 class="mb-6 text-xs font-medium tracking-widest text-muted-foreground uppercase">
+            Social
+          </h2>
+          <ul class="space-y-4 text-lg sm:space-y-6">
+            <li>
+              <a href="#"
+                class="flex items-center gap-2 opacity-100 transition-opacity duration-300 ease-in-out hover:opacity-70"
+                data-mobile-nav-link aria-label="Follow us on X (Twitter)">
+                <img src="/imgs/social/light/x.svg" alt="X" width="48" height="48" class="size-4" loading="lazy" />
+                <span>X (Twitter)</span>
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                class="flex items-center gap-2 opacity-100 transition-opacity duration-300 ease-in-out hover:opacity-70"
+                data-mobile-nav-link aria-label="Follow us on LinkedIn">
+                <img src="/imgs/social/light/linkedin.svg" alt="LinkedIn" width="48" height="48" class="size-4"
+                  loading="lazy" />
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                class="flex items-center gap-2 opacity-100 transition-opacity duration-300 ease-in-out hover:opacity-70"
+                data-mobile-nav-link aria-label="Follow us on Bluesky">
+                <img src="/imgs/social/light/bluesky.svg" alt="Bluesky" width="48" height="48" class="size-4"
+                  loading="lazy" />
+                <span>Bluesky</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="mb-6 text-xs font-medium tracking-widest text-muted-foreground uppercase">
+            Menu
+          </h2>
+          <ul class="space-y-4 text-lg font-medium sm:space-y-6 md:text-4xl">
+            <li>
+              <a href="#"
+                class="transition-opacity duration-300 ease-in-out hover:opacity-70  data-active-link:text-muted-foreground"
+                data-active-link data-mobile-nav-link>Home</a>
+            </li>
+            <li>
+              <a href="#"
+                class="transition-opacity duration-300 ease-in-out hover:opacity-70 data-active-link:text-muted-foreground"
+                data-mobile-nav-link>About</a>
+            </li>
+            <li>
+              <a href="#"
+                class="transition-opacity duration-300 ease-in-out hover:opacity-70 data-active-link:text-muted-foreground"
+                data-mobile-nav-link>Case
+                Studies</a>
+            </li>
+            <li>
+              <a href="#"
+                class="transition-opacity duration-300 ease-in-out hover:opacity-70 data-active-link:text-muted-foreground"
+                data-mobile-nav-link>Blog</a>
+            </li>
+            <li>
+              <a href="#"
+                class="transition-opacity duration-300 ease-in-out hover:opacity-70 data-active-link:text-muted-foreground"
+                data-mobile-nav-link>Pricing</a>
+            </li>
+            <li>
+              <a href="#"
+                class="transition-opacity duration-300 ease-in-out hover:opacity-70 data-active-link:text-muted-foreground"
+                data-mobile-nav-link>Send
+                a message</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-auto pt-8 md:pt-10">
+        <p class="mb-6 text-xs font-medium tracking-widest text-muted-foreground uppercase">
+          Get in touch
+        </p>
+        <a href="mailto:info@statixflow.com"
+          class="text-lg font-medium transition-opacity duration-300 ease-in-out hover:opacity-70">info@statixflow.com</a>
+      </div>
+    </div>
+  </div>
+  <!-- End: Mobile Navigation Sheet -->
+
+  <!-- Start: Smooth Scroll Area -->
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <!-- For smooth scroll to work as expected, all content should be inside #smooth-wrapper & #smooth-content. All fixed position elements should be outside of #smooth-wrapper -->
+
+      <!-- Start: Main Container -->
+      <main data-main-container>
+        <!-- Start: Hero Section -->
+        <section class="container mx-auto px-4">
+          <div class="relative rounded-2xl overflow-hidden p-10 md:p-20">
+            <img src="/imgs/generic/noisy-gradient.avif" alt="" width="1800" height="793" fetchpriority="high"
+              class="absolute inset-0 z-1 size-full object-cover object-bottom-right" />
+            <div class="relative z-2 space-y-8 md:space-y-10">
+              <div class="mx-auto max-w-xl text-center text-balance text-white">
+                <h1 class="mb-2 text-5xl font-bold sm:text-6xl md:text-8xl">
+                  Build fast. Earn More
+                </h1>
+                <p class="text-lg leading-relaxed text-white/80 md:text-2xl">
+                  Use customer data to build great and solid product
+                  experiences that convert.
+                </p>
+              </div>
+
+              <div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
+                <a href="#"
+                  class="group inline-flex items-center justify-center gap-2 rounded-full bg-white px-6 py-3 text-base font-medium text-black">
+                  <span class="relative overflow-hidden">
+                    <span
+                      class="relative block h-full translate-y-0 transition-transform duration-300 ease-in-out group-hover:-translate-y-full">Start
+                      a free trial</span>
+
+                    <span
+                      class="absolute top-0 left-0 block h-full translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">Start
+                      a free trial</span>
+                  </span>
+
+                  <span class="translate-x-0 transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                    <i data-lucide="chevron-right" class="size-4"></i>
+                  </span>
+                </a>
+
+                <a href="#"
+                  class="group inline-flex items-center justify-center gap-2 text-base font-medium text-white">
+                  <span class="relative overflow-hidden">
+                    <span
+                      class="relative block h-full translate-y-0 transition-transform duration-300 ease-in-out group-hover:-translate-y-full">Learn
+                      more</span>
+
+                    <span
+                      class="absolute top-0 left-0 block h-full translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">Learn
+                      more</span>
+                  </span>
+
+                  <span class="translate-x-0 transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                    <i data-lucide="chevron-right" class="size-4"></i>
+                  </span>
+                </a>
+              </div>
+
+              <div class="flex flex-wrap items-center justify-center gap-6 opacity-80 sm:gap-12">
+                <img src="/imgs/companies/dark/frequencii.svg" alt="Frequencii" width="177" height="48" />
+                <img src="/imgs/companies/dark/alt+shift.svg" alt="Alt + Shift" width="153" height="48" />
+                <img src="/imgs/companies/dark/global-bank.svg" alt="Global Bank" width="193" height="48" />
+                <img src="/imgs/companies/dark/easy-tax.svg" alt="Easy Tax" width="158" height="48" />
+              </div>
+            </div>
+
+            <div class="absolute top-0 right-10 left-10 z-2 h-full">
+              <div class="bg-white-stripe h-full"></div>
+            </div>
+          </div>
+        </section>
+        <!-- End: Hero Section -->
+
+        <!-- Start: Our Mandate Section -->
+        <section class="container mx-auto px-4">
+          <div class="space-y-8 pt-10 md:space-y-10 md:pt-20">
+            <div class="grid grid-cols-1 items-start gap-8 lg:grid-cols-3">
+              <div class="lg:col-span-2">
+                <div class="mb-2 text-xs font-medium tracking-widest text-muted-foreground uppercase">
+                  Our Mandate
+                </div>
+                <p class="text-2xl leading-snug font-medium md:text-4xl" role="group">
+                  We're an experienced and efficient payroll services
+                  provider, with top-class customer satisfaction at the very
+                  centre of the business.
+                </p>
+              </div>
+              <div>
+                <p class="text-lg leading-relaxed text-muted-foreground">
+                  Reform delivers cutting-edge technology that enables you to
+                  adopt and roll out AI across your organization without
+                  letting go of your systems or losing the human touch.
+                </p>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+              <div class="border-t pt-6">
+                <span class="mb-4 block text-xs font-bold">01</span>
+
+                <h2 class="mb-2 text-2xl font-medium">
+                  Connect your systems
+                </h2>
+                <p class="text-lg leading-relaxed text-muted-foreground">
+                  Reform connects to all the third party and in-house systems
+                  and databases that you trust and use daily.
+                </p>
+              </div>
+
+              <div class="border-t pt-6">
+                <span class="mb-4 block text-xs font-bold">02</span>
+
+                <h2 class="mb-2 text-2xl font-medium">Digitize your SOPs</h2>
+                <p class="text-lg leading-relaxed text-muted-foreground">
+                  Upload your existing procedures and automate tasks from data
+                  extraction to customs preparation.
+                </p>
+              </div>
+
+              <div class="border-t pt-6">
+                <span class="mb-4 block text-xs font-bold">03</span>
+
+                <h2 class="mb-2 text-2xl font-medium">
+                  Supercharge your team
+                </h2>
+                <p class="text-lg leading-relaxed text-muted-foreground">
+                  Human-in-the-loop dashboards enable your team to focus on
+                  what matters most and only handle exceptions when needed.
+                </p>
+              </div>
+
+              <div class="border-t pt-6">
+                <span class="mb-4 block text-xs font-bold">04</span>
+
+                <h2 class="mb-2 text-2xl font-medium">Visualize your data</h2>
+                <p class="text-lg leading-relaxed text-muted-foreground">
+                  Configure custom dashboards to provide your team and
+                  customers with analytics and insights from all connected
+                  systems.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End: Our Mandate Section -->
+
+        <!-- Start: Testimonials Section -->
+        <section class="container mx-auto px-4">
+          <div
+            class="relative space-y-8 py-10 after:absolute after:right-0 after:bottom-0 after:left-0 after:h-px after:bg-border md:space-y-10 md:py-20">
+            <div class="mx-auto max-w-2xl text-center text-balance">
+              <div class="mb-2 text-xs font-medium tracking-widest text-muted-foreground uppercase">
+                Testimonials
+              </div>
+              <h2 class="text-4xl font-medium md:text-5xl">
+                Here's what our customers
+                <span class="text-muted-foreground">have to say about us</span>
+              </h2>
+            </div>
+
+            <div data-slider>
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide h-auto!">
+                    <div
+                      class="grid h-full grid-rows-[180px_1fr] gap-0 overflow-hidden rounded-b-2xl md:grid-cols-[1fr_240px] md:grid-rows-none md:rounded-l-2xl md:rounded-br-none">
+                      <div class="order-2 space-y-8 bg-muted p-10 md:order-1 lg:p-20">
+                        <div>
+                          <div class="text-4xl font-medium tracking-tight md:text-5xl">
+                            38<span class="text-3xl md:text-4xl">mins</span>
+                          </div>
+                          <p class="mt-1 text-sm text-muted-foreground">
+                            saved per tax declaration
+                          </p>
+                        </div>
+
+                        <p class="text-xl leading-relaxed font-medium md:text-2xl">
+                          Working at a U.S. brokerage that processes large
+                          amounts of data daily, I’ve found StatixFlow to be a
+                          game changer. Their API lets us reliably ingest and
+                          queue our data lineage, which has made our
+                          operations noticeably smoother and more efficient.
+                        </p>
+                      </div>
+
+                      <div class="relative order-1 md:order-2">
+                        <div class="grid h-full w-full grid-cols-[180px_1fr] md:flex md:flex-col">
+                          <figure class="relative h-[180px] w-[180px] shrink-0 md:h-[240px] md:w-[240px]">
+                            <img src="/imgs/avatars/avatar-1.webp" alt="Sydney Roberts" width="640" height="640"
+                              class="absolute inset-0 h-full w-full object-cover" />
+                          </figure>
+
+                          <div class="bg-black p-4 text-white md:grow">
+                            <h3 class="mb-2 text-xl font-medium md:text-2xl">
+                              Sydney Roberts
+                            </h3>
+                            <p class="text-sm text-white/70">
+                              CTO at Tax Solutions
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide h-auto!">
+                    <div
+                      class="grid h-full grid-rows-[180px_1fr] gap-0 overflow-hidden rounded-b-2xl md:grid-cols-[1fr_240px] md:grid-rows-none md:rounded-l-2xl md:rounded-br-none">
+                      <div class="order-2 space-y-8 bg-muted p-10 md:order-1 lg:p-20">
+                        <div>
+                          <div class="text-4xl font-medium tracking-tight md:text-5xl">
+                            60<span class="text-3xl md:text-4xl">%</span>
+                          </div>
+                          <p class="mt-1 text-sm text-muted-foreground">
+                            increase in team productivity
+                          </p>
+                        </div>
+
+                        <p class="text-xl leading-relaxed font-medium md:text-2xl">
+                          The integration was seamless and the results were
+                          immediate. Our team productivity increased by 60%
+                          within the first month. The support team is
+                          incredibly responsive and helpful.
+                        </p>
+                      </div>
+
+                      <div class="relative order-1 md:order-2">
+                        <div class="grid h-full w-full grid-cols-[180px_1fr] md:flex md:flex-col">
+                          <figure class="relative h-[180px] w-[180px] shrink-0 md:h-[240px] md:w-[240px]">
+                            <img src="/imgs/avatars/avatar-2.webp" alt="Michael Doe" width="640" height="640"
+                              class="absolute inset-0 h-full w-full object-cover" />
+                          </figure>
+
+                          <div class="bg-black p-4 text-white md:grow">
+                            <h3 class="mb-2 text-2xl font-medium">
+                              Michael Doe
+                            </h3>
+                            <p class="text-sm text-white/70">
+                              CFO at TechFlow
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide h-auto!">
+                    <div
+                      class="grid h-full grid-rows-[180px_1fr] gap-0 overflow-hidden rounded-b-2xl md:grid-cols-[1fr_240px] md:grid-rows-none md:rounded-l-2xl md:rounded-br-none">
+                      <div class="order-2 space-y-8 bg-muted p-10 md:order-1 lg:p-20">
+                        <div>
+                          <div class="text-4xl font-medium tracking-tight md:text-5xl">
+                            85<span class="text-3xl md:text-4xl">%</span>
+                          </div>
+                          <p class="mt-1 text-sm text-muted-foreground">
+                            reduction in manual tasks
+                          </p>
+                        </div>
+
+                        <p class="text-xl leading-relaxed font-medium md:text-2xl">
+                          We've been searching for a solution like this for
+                          years. The automation capabilities have transformed
+                          how we handle our daily operations and customer
+                          communications.
+                        </p>
+                      </div>
+
+                      <div class="relative order-1 md:order-2">
+                        <div class="grid h-full w-full grid-cols-[180px_1fr] md:flex md:flex-col">
+                          <figure class="relative h-[180px] w-[180px] shrink-0 md:h-[240px] md:w-[240px]">
+                            <img src="/imgs/avatars/avatar-3.webp" alt="Michelle Chen" width="640" height="640"
+                              class="absolute inset-0 h-full w-full object-cover" />
+                          </figure>
+
+                          <div class="bg-black p-4 text-white md:grow">
+                            <h3 class="mb-2 text-2xl font-medium">
+                              Michelle Chen
+                            </h3>
+                            <p class="text-sm text-white/70">
+                              Director at LogiPro
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide h-auto!">
+                    <div
+                      class="grid h-full grid-rows-[180px_1fr] gap-0 overflow-hidden rounded-b-2xl md:grid-cols-[1fr_240px] md:grid-rows-none md:rounded-l-2xl md:rounded-br-none">
+                      <div class="order-2 space-y-8 bg-muted p-10 md:order-1 lg:p-20">
+                        <div>
+                          <div class="text-4xl font-medium tracking-tight md:text-5xl">
+                            50<span class="text-3xl md:text-4xl">%</span>
+                          </div>
+                          <p class="mt-1 text-sm text-muted-foreground">
+                            faster customs processing
+                          </p>
+                        </div>
+
+                        <p class="text-xl leading-relaxed font-medium md:text-2xl">
+                          The ROI was evident from day one. Our customs
+                          processing time has been cut in half, and our
+                          clients are noticing the improvement in delivery
+                          times.
+                        </p>
+                      </div>
+
+                      <div class="relative order-1 md:order-2">
+                        <div class="grid h-full w-full grid-cols-[180px_1fr] md:flex md:flex-col">
+                          <figure class="relative h-[180px] w-[180px] shrink-0 md:h-[240px] md:w-[240px]">
+                            <img src="/imgs/avatars/avatar-4.webp" alt="David Kim" width="640" height="640"
+                              class="absolute inset-0 h-full w-full object-cover" />
+                          </figure>
+
+                          <div class="bg-black p-4 text-white md:grow">
+                            <h3 class="mb-2 text-2xl font-medium">
+                              David Kim
+                            </h3>
+                            <p class="text-sm text-white/70">
+                              VP at GlobalShip
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide h-auto!">
+                    <div
+                      class="grid h-full grid-rows-[180px_1fr] gap-0 overflow-hidden rounded-b-2xl md:grid-cols-[1fr_240px] md:grid-rows-none md:rounded-l-2xl md:rounded-br-none">
+                      <div class="order-2 space-y-8 bg-muted p-10 md:order-1 lg:p-20">
+                        <div>
+                          <div class="text-4xl font-medium tracking-tight md:text-5xl">
+                            3<span class="text-3xl md:text-4xl">x</span>
+                          </div>
+                          <p class="mt-1 text-sm text-muted-foreground">
+                            business growth in 6 months
+                          </p>
+                        </div>
+
+                        <p class="text-xl leading-relaxed font-medium md:text-2xl">
+                          This platform has been a game-changer for our
+                          startup. The scalability and flexibility have
+                          allowed us to grow without worrying about
+                          operational bottlenecks.
+                        </p>
+                      </div>
+
+                      <div class="relative order-1 md:order-2">
+                        <div class="grid h-full w-full grid-cols-[180px_1fr] md:flex md:flex-col">
+                          <figure class="relative h-[180px] w-[180px] shrink-0 md:h-[240px] md:w-[240px]">
+                            <img src="/imgs/avatars/avatar-5.webp" alt="Emily Johnson" width="640" height="640"
+                              class="absolute inset-0 h-full w-full object-cover" />
+                          </figure>
+
+                          <div class="bg-black p-4 text-white md:grow">
+                            <h3 class="mb-2 text-2xl font-medium">
+                              Emily Johnson
+                            </h3>
+                            <p class="text-sm text-white/70">
+                              Founder at FastFreight
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-10 flex items-center justify-center gap-6">
+                <button
+                  class="group flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border border-border"
+                  aria-label="Previous Slide" data-slider-btn="prev">
+                  <span class="relative overflow-hidden">
+                    <span
+                      class="relative block h-full translate-y-0 transition-transform duration-300 ease-in-out group-hover:-translate-y-full">
+                      <i data-lucide="arrow-left" class="size-4"></i></span>
+
+                    <span
+                      class="absolute top-0 left-0 block h-full translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
+                      <i data-lucide="arrow-left" class="size-4"></i></span>
+                  </span>
+                </button>
+
+                <div class="flex w-auto! items-center gap-4" data-slider-pagination></div>
+
+                <button
+                  class="group flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border border-border"
+                  data-slider-btn="next" aria-label="Next Slide">
+                  <span class="relative overflow-hidden">
+                    <span
+                      class="relative block h-full translate-y-0 transition-transform duration-300 ease-in-out group-hover:-translate-y-full">
+                      <i data-lucide="arrow-right" class="size-4"></i></span>
+
+                    <span
+                      class="absolute top-0 left-0 block h-full translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
+                      <i data-lucide="arrow-right" class="size-4"></i></span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End: Testimonials Section -->
+
+        <!-- Start: FAQs Section -->
+        <section class="container mx-auto px-4">
+          <div class="py-10 md:pt-20 md:pb-20">
+            <div class="mb-8 md:mb-16">
+              <div class="mb-2 text-xs font-medium tracking-widest text-muted-foreground uppercase">
+                FAQ
+              </div>
+              <h2 class="text-4xl font-medium md:text-5xl">
+                Have any questions?
+              </h2>
+            </div>
+
+            <div class="grid grid-cols-1 items-start lg:grid-cols-[1fr_320px] lg:gap-8">
+              <div class="divide-y divide-border" data-accordion>
+                <div data-accordion-item>
+                  <button class="flex w-full cursor-pointer items-center justify-between py-6 text-left"
+                    data-accordion-trigger>
+                    <span class="pr-8 text-xl font-medium text-foreground">What do I get after purchase?</span>
+                    <span class="relative flex h-6 w-6 shrink-0 items-center justify-center">
+                      <span
+                        class="absolute h-[2px] w-4 bg-foreground transition-transform duration-300 ease-in-out"></span>
+                      <span
+                        class="absolute h-[2px] w-4 rotate-90 bg-foreground transition-transform duration-300 ease-in-out"
+                        data-accordion-vertical></span>
+                    </span>
+                  </button>
+
+                  <div class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out"
+                    data-accordion-content>
+                    <div class="overflow-hidden">
+                      <div class="space-y-6 pb-6 text-lg leading-relaxed text-muted-foreground">
+                        <p>
+                          You’ll receive instant access to the digital product
+                          via email, including download links and any setup
+                          instructions. If it’s a SaaS product, you’ll get
+                          login credentials and onboarding guidance right
+                          away.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div data-accordion-item>
+                  <button class="flex w-full cursor-pointer items-center justify-between py-6 text-left"
+                    data-accordion-trigger>
+                    <span class="pr-8 text-xl font-medium text-foreground">Is this a one-time payment or
+                      subscription?</span>
+                    <span class="relative flex h-6 w-6 shrink-0 items-center justify-center">
+                      <span
+                        class="absolute h-[2px] w-4 bg-foreground transition-transform duration-300 ease-in-out"></span>
+                      <span
+                        class="absolute h-[2px] w-4 rotate-90 bg-foreground transition-transform duration-300 ease-in-out"
+                        data-accordion-vertical></span>
+                    </span>
+                  </button>
+
+                  <div class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out"
+                    data-accordion-content>
+                    <div class="overflow-hidden">
+                      <div class="space-y-6 pb-6 text-lg leading-relaxed text-muted-foreground">
+                        <p>
+                          This product is available as a one-time purchase.
+                          However, some advanced features or future updates
+                          may be offered under optional subscription plans.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div data-accordion-item>
+                  <button class="flex w-full cursor-pointer items-center justify-between py-6 text-left"
+                    data-accordion-trigger>
+                    <span class="pr-8 text-xl font-medium text-foreground">Can I use this product for commercial
+                      projects?</span>
+                    <span class="relative flex h-6 w-6 shrink-0 items-center justify-center">
+                      <span
+                        class="absolute h-[2px] w-4 bg-foreground transition-transform duration-300 ease-in-out"></span>
+                      <span
+                        class="absolute h-[2px] w-4 rotate-90 bg-foreground transition-transform duration-300 ease-in-out"
+                        data-accordion-vertical></span>
+                    </span>
+                  </button>
+
+                  <div class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out"
+                    data-accordion-content>
+                    <div class="overflow-hidden">
+                      <div class="space-y-6 pb-6 text-lg leading-relaxed text-muted-foreground">
+                        <p>
+                          Yes. You’re free to use the product for personal and
+                          commercial projects unless otherwise stated in the
+                          license terms. Redistribution or resale of the
+                          original files is not permitted.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div data-accordion-item>
+                  <button class="flex w-full cursor-pointer items-center justify-between py-6 text-left"
+                    data-accordion-trigger>
+                    <span class="pr-8 text-xl font-medium text-foreground">Do I need technical skills to use
+                      this?</span>
+                    <span class="relative flex h-6 w-6 shrink-0 items-center justify-center">
+                      <span
+                        class="absolute h-[2px] w-4 bg-foreground transition-transform duration-300 ease-in-out"></span>
+                      <span
+                        class="absolute h-[2px] w-4 rotate-90 bg-foreground transition-transform duration-300 ease-in-out"
+                        data-accordion-vertical></span>
+                    </span>
+                  </button>
+
+                  <div class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out"
+                    data-accordion-content>
+                    <div class="overflow-hidden">
+                      <div class="space-y-6 pb-6 text-lg leading-relaxed text-muted-foreground">
+                        <p>
+                          Basic familiarity with digital tools is helpful, but
+                          step-by-step documentation is included. For SaaS
+                          products, everything runs in your browser—no
+                          installation required.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-accordion-item>
+                  <button class="flex w-full cursor-pointer items-center justify-between py-6 text-left"
+                    data-accordion-trigger>
+                    <span class="pr-8 text-xl font-medium text-foreground">Do you offer refunds?</span>
+                    <span class="relative flex h-6 w-6 shrink-0 items-center justify-center">
+                      <span
+                        class="absolute h-[2px] w-4 bg-foreground transition-transform duration-300 ease-in-out"></span>
+                      <span
+                        class="absolute h-[2px] w-4 rotate-90 bg-foreground transition-transform duration-300 ease-in-out"
+                        data-accordion-vertical></span>
+                    </span>
+                  </button>
+
+                  <div class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out"
+                    data-accordion-content>
+                    <div class="overflow-hidden">
+                      <div class="space-y-6 pb-6 text-lg leading-relaxed text-muted-foreground">
+                        <p>
+                          Due to the nature of digital products, refunds are
+                          generally not available. However, if you experience
+                          technical issues or are unsatisfied, contact support
+                          and we’ll do our best to resolve it.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-accordion-item>
+                  <button class="flex w-full cursor-pointer items-center justify-between py-6 text-left"
+                    data-accordion-trigger>
+                    <span class="pr-8 text-xl font-medium text-foreground">Will I receive future updates?</span>
+                    <span class="relative flex h-6 w-6 shrink-0 items-center justify-center">
+                      <span
+                        class="absolute h-[2px] w-4 bg-foreground transition-transform duration-300 ease-in-out"></span>
+                      <span
+                        class="absolute h-[2px] w-4 rotate-90 bg-foreground transition-transform duration-300 ease-in-out"
+                        data-accordion-vertical></span>
+                    </span>
+                  </button>
+
+                  <div class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out"
+                    data-accordion-content>
+                    <div class="overflow-hidden">
+                      <div class="space-y-6 pb-6 text-lg leading-relaxed text-muted-foreground">
+                        <p>
+                          Yes. Minor updates and improvements are included at
+                          no extra cost. Major feature upgrades may be
+                          released separately depending on the product
+                          roadmap.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="rounded-2xl bg-accent p-8">
+                <h3 class="mb-3 text-xl font-semibold text-foreground">
+                  Don't see the answer you need?
+                </h3>
+                <p class="mb-6 text-base leading-relaxed text-muted-foreground">
+                  If you don't see the answer to your question, send us a
+                  message and we will answer you as soon as possible, within a
+                  few hours.
+                </p>
+                <a href="#"
+                  class="group inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-base font-medium text-white">
+                  <span class="relative overflow-hidden">
+                    <span
+                      class="relative block h-full translate-y-0 transition-transform duration-300 ease-in-out group-hover:-translate-y-full">Contact
+                      Us</span>
+
+                    <span
+                      class="absolute top-0 left-0 block h-full translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">Contact
+                      Us</span>
+                  </span>
+
+                  <span class="translate-x-0 transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                    <i data-lucide="chevron-right" class="size-4"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End: FAQs Section -->
+
+        <!-- Start: CTA Section -->
+        <section class="relative">
+          <div class="absolute top-0 left-0 z-1 h-1/2 w-full"></div>
+
+          <div class="container mx-auto px-4">
+            <div class="relative z-2 overflow-hidden rounded-2xl bg-accent p-10 md:p-20">
+              <figure class="absolute top-0 left-0 z-1 w-[1000px] -translate-x-1/2 -translate-y-1/2">
+                <img src="/imgs/generic/concentric-circles.svg" alt="" width="800" height="800"
+                  class="h-auto w-full opacity-30" />
+              </figure>
+
+              <div class="relative z-2 mx-auto max-w-2xl text-center text-balance">
+                <h2 class="mb-8 text-4xl font-medium text-foreground md:text-5xl">
+                  Get started today
+                </h2>
+                <p class="mx-auto mb-12 max-w-lg text-lg leading-relaxed text-muted-foreground">
+                  You don’t need to overhaul the tools you already rely on.
+                  See how StatixFlow can streamline your workflows and give
+                  your team back up to 25% of their productive time every
+                  month.
+                </p>
+                <a href="#"
+                  class="group inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-base font-medium text-white">
+                  <span class="relative overflow-hidden">
+                    <span
+                      class="relative block h-full translate-y-0 transition-transform duration-300 ease-in-out group-hover:-translate-y-full">Start
+                      a free trial</span>
+
+                    <span
+                      class="absolute top-0 left-0 block h-full translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">Start
+                      a free trial</span>
+                  </span>
+
+                  <span class="translate-x-0 transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                    <i data-lucide="chevron-right" class="size-4"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="absolute bottom-0 left-0 z-1 h-1/2 w-full bg-black"></div>
+        </section>
+        <!-- End: CTA Section -->
+
+        <!-- Start: Footer -->
+        <!-- The -mt-px and the after pseudo-element is to fix the sub-pixel rendering gap between dark sections caused by scroll-smoother.js-->
+        <footer
+          class="relative -mt-px bg-black text-white after:absolute after:-bottom-px after:left-0 after:h-[2px] after:w-full after:bg-black">
+          <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 gap-8 py-10 sm:grid-cols-2 md:py-20 lg:grid-cols-4">
+              <div>
+                <h2 class="mb-6 text-xs font-medium tracking-widest text-muted-foreground uppercase">
+                  Company
+                </h2>
+                <ul class="space-y-4 text-sm">
+                  <li>
+                    <a href="contact.html"
+                      class="transition-colors duration-300 ease-in-out hover:text-white/70">Contact Us</a>
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <a href="#" class="transition-colors duration-300 ease-in-out hover:text-white/70">FAQ</a>
+                  </li>
+                  <li>
+                    <a href="#" class="transition-colors duration-300 ease-in-out hover:text-white/70">Report A Bug</a>
+                  </li>
+                  <li>
+                    <a href="#" class="transition-colors duration-300 ease-in-out hover:text-white/70">Careers</a>
+                  </li>
+                  <li>
+                    <a href="#" class="transition-colors duration-300 ease-in-out hover:text-white/70">About Us</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h2 class="mb-6 text-xs font-medium tracking-widest text-muted-foreground uppercase">
+                  Products
+                </h2>
+                <ul class="space-y-4 text-sm">
+                  <li>
+                    <a href="#" class="transition-colors duration-300 ease-in-out hover:text-white/70">Company</a>
+                  </li>
+                  <li>
+                    <a href="contact.html"
+                      class="transition-colors duration-300 ease-in-out hover:text-white/70">Contact</a>
+                  </li>
+                  <li>
+                    <a href="privacy-policy.html"
+                      class="transition-colors duration-300 ease-in-out hover:text-white/70">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#" class="transition-colors duration-300 ease-in-out hover:text-white/70">Careers</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h2 class="mb-6 text-xs font-medium tracking-widest text-muted-foreground uppercase">
+                  Need help?
+                </h2>
+                <div class="space-y-6">
+                  <div>
+                    <p class="mb-2 text-xs font-medium tracking-widest text-muted-foreground uppercase">
+                      Call Us Directly
+                    </p>
+                    <p class="text-lg font-semibold">+(1) 123 656 7890</p>
+                  </div>
+                  <div>
+                    <p class="mb-2 text-xs font-medium tracking-widest text-muted-foreground uppercase">
+                      Need Support?
+                    </p>
+                    <p class="text-lg font-semibold">help@statixflow.com</p>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <h2 class="mb-4 text-xs font-medium tracking-widest text-muted-foreground uppercase">
+                  Stay in the loop
+                </h2>
+                <form class="relative" action="#">
+                  <input type="email" placeholder="Enter your email address"
+                    class="w-full border-b border-white/30 bg-transparent py-3 pr-8 text-sm text-white/80 placeholder-white/30 transition-colors duration-300 ease-in-out outline-none focus:border-white/80" />
+                  <button
+                    class="absolute top-1/2 right-0 -translate-y-1/2 text-white/50 transition-colors hover:text-white"
+                    type="submit" aria-label="Subscribe to newsletter">
+                    <i data-lucide="forward" class="size-4"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+
+            <div
+              class="relative flex flex-col items-center justify-between gap-4 pt-0 pb-10 before:absolute before:top-0 before:right-0 before:left-0 before:hidden before:h-px before:bg-white/20 sm:flex-row sm:pt-10 sm:before:block">
+              <div class="flex items-center gap-2 text-sm font-bold tracking-wider uppercase">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M13 3L4 14h7l-2 7 9-11h-7l2-7z" />
+                </svg>
+                <span>StatixFlow™</span>
+              </div>
+
+              <p class="text-xs text-muted-foreground">
+                © 2026 StatixFlow™ All images are for demo purposes.
+              </p>
+
+              <div class="flex items-center gap-5">
+                <a href="#" aria-label="Follow us on X (Twitter)"
+                  class="opacity-100 transition-opacity duration-300 ease-in-out hover:opacity-70">
+                  <img src="/imgs/social/light/x.svg" alt="" width="48" height="48" class="size-4" />
+                </a>
+
+                <a href="#" aria-label="Follow us on LinkedIn"
+                  class="opacity-100 transition-opacity duration-300 ease-in-out hover:opacity-70">
+                  <img src="/imgs/social/light/linkedin.svg" alt="" width="48" height="48" class="size-4" />
+                </a>
+
+                <a href="#" aria-label="Follow us on Bluesky"
+                  class="opacity-100 transition-opacity duration-300 ease-in-out hover:opacity-70">
+                  <img src="/imgs/social/light/bluesky.svg" alt="" width="48" height="48" class="size-4" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- End: Footer -->
+      </main>
+      <!-- End: Main Container -->
+    </div>
+  </div>
+  <!-- End: Smooth Scroll Area -->
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+
+</html>
