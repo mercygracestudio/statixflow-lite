@@ -9,13 +9,6 @@ export function scrollHeaderAnimation() {
   const headerNav = document.querySelector("[data-animated-scroll-header]");
   if (!headerNav) return;
 
-  const headerNavHeight = headerNav.offsetHeight;
-  const mainContainer = document.querySelector("[data-main-container]");
-
-  const headerPlaceholder = document.createElement("div");
-  headerPlaceholder.style.height = `${headerNavHeight}px`;
-  mainContainer.parentNode.insertBefore(headerPlaceholder, mainContainer);
-
   const animationSetup = gsap
     .from(headerNav, {
       yPercent: -100,
